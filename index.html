@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div>
+            <div class="input">
+                <h1 class="text-wh fw-bold ">COUNTDOWN TIMER</h1>
+                 <input type="text" class=" p-5 pb-5 fw-bold fs-1 shadow border-0 " placeholder="HH" id="hour">
+                 <input type="text" class=" p-5 pb-5 fw-bold fs-1 shadow border-0 " placeholder="MM" id="minutes">
+                 <input type="text" class=" p-5 pb-5 fw-bold fs-1 shadow border-0 " placeholder="SS" id="seconds">
+            </div>
+                <div class="mt-5">
+                    <button class="btn bg-white fw-bold" onclick="countDown()">COUNTDOWN</button>
+                    <button class="btn bg-white fw-bold" onclick="reset()">RESET</button>
+                </div>
+           
+        </div>
+    </center>
+       
+
+    <script src="countdown.js"></script>
+</body>
+</html>
